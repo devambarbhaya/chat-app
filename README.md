@@ -35,7 +35,7 @@ Key Features:
 ### Cloning the repository
 
 ```shell
-git clone https://github.com/AntonioErdeljac/next13-messenger.git
+git clone https://github.com/devambarbhaya/chat-app.git
 ```
 
 ### Install packages
