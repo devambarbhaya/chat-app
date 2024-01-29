@@ -4,6 +4,7 @@ import "./globals.css";
 import ToasterContext from "./context/ToasterContext";
 import AuthContext from "./context/AuthContext";
 import ActiveStatus from "./components/ActiveStatus";
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,6 +25,7 @@ export default function RootLayout({
           <ToasterContext />
           <ActiveStatus />
           {children}
+          <SpeedInsights />
         </AuthContext>
       </body>
     </html>
